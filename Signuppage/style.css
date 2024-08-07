@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Rubik", sans-serif;
+   
+
+}
+
+
+.outerBox
+{
+width:100vw;
+height: 100vh;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,41,1) 27%, rgba(1,202,232,1) 92%, rgba(0,212,255,1) 100%);
+display: block;
+align-items: center;
+justify-content: center;
+  
+
+   
+}
+
+.InnerBox
+{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 45%;
+    transform:translateY(-50%);
+    border: black 5px solid;
+    padding: 12px;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 8px;
+
+    
+}
+h2{
+    color: black;
+}
+.head
+{
+    font-size: 15px;
+    color: rgb(141, 79, 79);
+}
+.signup-body
+{
+    margin:20px 0;
+}
+.signup-body p{
+    margin: 20px 0;
+
+}
+.signup-body p label{
+    display: block;
+}
+.signup-body p input{
+    width:100%;
+    padding: 10px 0;
+    border:2px solid rgb(245, 245, 245);
+    border-radius:5px ;
+
+
+}
+.signup-body p input[type="submit"]
+{
+    
+    color:white;
+    font-size: 15px;
+    background-color: rgb(34, 179, 34);
+    cursor: pointer;
+    border:none;
+
+
+    
+}
+.signup-body p input[type="submit"]:hover
+{
+    
+    
+    background-color: rgb(16, 83, 16);
+   
+
+
+    
+}
+#signup-footer
+{
+    color: #805c5c;
+    text-align: center;
+}
